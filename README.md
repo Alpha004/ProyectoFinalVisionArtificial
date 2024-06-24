@@ -15,6 +15,22 @@ Finger Vein Recognition", utilizando otro dataset similar
 
 El proyecto consta de 2 codigos en Python utilizando diferentes librerias como TensorFlow, Keras, Numpy, etc, el cual lee las imagenes del dataset y se entrena el modelo utilizando ViT, la idea es poder identificar de cierta forma a una persona mediante imagenes de las venas en sus manos, de la cual varios estudios concuerdan que hay diferencias que permitirian de cierta forma identificar como una huella digital o ADN a las personas.
 
+## Requerimientos del Sistema
+
+Como requerimientos del sistema, principalmente la memoria RAM de 32 gbs y de mejor procesamiento una tarjeta de video NVIDIA.
+
+1. Analisis de dedo x dedo
+
+* Tensorflow2.15
+* Python 3.10
+
+2. Analisis de mano x mano
+
+* Tensorflow2.10
+* Python 3.7
+
+El ambiente de ejecucion fue de Colab con GPU, por lo que los requerimientos de hardware mencionados anteriormente ya estaban cubiertos
+
 ## Intrucciones
 
 ### EJECUCION
